@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "task_times",
+  "info": {
+    "singularName": "task-time",
+    "pluralName": "task-times",
+    "displayName": "taskTime",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hour": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}
