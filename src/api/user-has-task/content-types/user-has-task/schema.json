@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "tesames",
+  "collectionName": "user_has_tasks",
   "info": {
-    "singularName": "tesame",
-    "pluralName": "tesames",
-    "displayName": "tesame",
+    "singularName": "user-has-task",
+    "pluralName": "user-has-tasks",
+    "displayName": "user_has_task",
     "description": ""
   },
   "options": {
@@ -21,6 +21,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
+    },
+    "date": {
+      "type": "date"
+    },
+    "time": {
+      "type": "string"
     }
   }
 }

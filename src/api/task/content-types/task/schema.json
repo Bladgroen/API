@@ -13,7 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "task": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "required": true,
+      "unique": true
     },
     "description": {
       "type": "richtext"
