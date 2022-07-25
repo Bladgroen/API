@@ -17,11 +17,6 @@
       "relation": "oneToOne",
       "target": "api::task.task"
     },
-    "task_time": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::task-time.task-time"
-    },
     "users_permissions_user": {
       "type": "relation",
       "relation": "oneToOne",
